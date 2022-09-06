@@ -1,10 +1,12 @@
 # helm-charts
 A collection of Helm charts
 
+
+This repo is a fork from the awesome [bjw-s](https://github.com/bjw-s/helm-charts)
 ## Goal
 
 This repo contains Helm charts that I have developed to run applications in my
-[home Kubernetes cluster](https://github.com/bjw-s/home-ops/).
+[home Kubernetes cluster](https://github.com/PixelJonas/cluster-gitops).
 
 This repo is not intended to be a replacement for any of the large collections
 of Helm charts that are out there.
@@ -14,14 +16,14 @@ of Helm charts that are out there.
 The Helm repository can be installed as follows:
 
 ```console
-helm repo add bjw-s https://bjw-s.github.io/helm-charts
+helm repo add pixeljonas https://pixeljonas.github.io/helm-charts
 ```
 
-You can then run `helm search repo bjw-s` to search the charts.
+You can then run `helm search repo pixeljonas` to search the charts.
 
 ## Documentation
 
-Documentation can be found [here](https://bjw-s.github.io/helm-charts/docs/).
+Documentation can be found [here](https://pixeljonas.github.io/helm-charts/docs/).
 
 ## Contributing
 
